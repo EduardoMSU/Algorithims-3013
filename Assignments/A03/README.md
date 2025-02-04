@@ -10,6 +10,6 @@ This assignment will find a delete method to the binary search tree code.
 
 ### Instructions:
 
--Swap the root node with the last node in the array. 
--Remove the last node in the array after swapping.
--
+- If it is a leaf node it can just be deleted and be made null. 
+- If the parent node has one child node the delete the parent node and let the child node replace it.
+- If the parent has two child nodes then let either the pre successor or the post successor take it's place.
