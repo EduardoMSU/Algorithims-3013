@@ -39,41 +39,41 @@ private:
     }
   }
 
-  Node* _delete(Node* sub_root, int x) {             // Function to delete a node recursively
-    if (sub_root == nullptr) return sub_root;
+//   Node* _delete(Node* sub_root, int x) {             // Function to delete a node recursively
+//     if (sub_root == nullptr) return sub_root;
     
-    if (x < sub_root->data) {
-      sub_root->left = _delete(sub_root->left, x);
-    } else if (x > sub_root->data) {
-      sub_root->right = _delete(sub_root->right, x);
-    } else {
+//     if (x < sub_root->data) {
+//       sub_root->left = _delete(sub_root->left, x);
+//     } else if (x > sub_root->data) {
+//       sub_root->right = _delete(sub_root->right, x);
+//     } else {
      
-      if (sub_root->left == nullptr) {               // Case 1: Node has no children or only one child
-        Node* temp = sub_root->right;
-        delete sub_root;                             // Free memory of deleted node
-        return temp;                                 // Return the new subtree root
-      } else if (sub_root->right == nullptr) {
-        Node* temp = sub_root->left;
-        delete sub_root;                             // Free memory of deleted node
-        return temp;                                 // Return the new subtree root
-      }
+//       if (sub_root->left == nullptr) {               // Case 1: Node has no children or only one child
+//         Node* temp = sub_root->right;
+//         delete sub_root;                             // Free memory of deleted node
+//         return temp;                                 // Return the new subtree root
+//       } else if (sub_root->right == nullptr) {
+//         Node* temp = sub_root->left;
+//         delete sub_root;                             // Free memory of deleted node
+//         return temp;                                 // Return the new subtree root
+//       }
       
    
-      Node* temp = _min_value_node(sub_root->right); // Case 2: Node has two children, find the inorder successor
-      sub_root->data = temp->data;                   // Copy inorder successor's value to this node
-      sub_root->right = _delete(sub_root->right, temp->data); // Delete the inorder successor
-    }
-    return sub_root;                                 // Return the updated subtree root
-  }
+//       Node* temp = _min_value_node(sub_root->right); // Case 2: Node has two children, find the inorder successor
+//       sub_root->data = temp->data;                   // Copy inorder successor's value to this node
+//       sub_root->right = _delete(sub_root->right, temp->data); // Delete the inorder successor
+//     }
+//     return sub_root;                                 // Return the updated subtree root
+//   }
   
   
-  Node* _min_value_node(Node* node) {               // Helper function to find the node with the minimum value in a subtree
-    Node* current = node;
-    while (current && current->left != nullptr) {
-      current = current->left;
-    }
-    return current;
-  }
+//   Node* _min_value_node(Node* node) {               // Helper function to find the node with the minimum value in a subtree
+//     Node* current = node;
+//     while (current && current->left != nullptr) {
+//       current = current->left;
+//     }
+//     return current;
+//   }
 
   void _print(Node *root) {
     if (!root) {
