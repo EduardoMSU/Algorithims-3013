@@ -91,7 +91,7 @@ public:
   void insert(int x) { _insert(root, x); }
   bool search() { return 0; }
   void print() { _print(root); }
-  void remove(int x) { root = _delete(root, x); }
+  // void remove(int x) { root = _delete(root, x); }
 };
 
 int main() {
