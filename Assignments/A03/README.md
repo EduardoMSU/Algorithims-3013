@@ -6,7 +6,7 @@ This assignment will find a delete method to the binary search tree code.
 
 |  #  |  File  |  Description  |
 | :---: | ---------------- | -------------------------------------------------- |
-|  1  |  [Link 1](Main.cpp)  |  Main.cpp is where everything gets put together and gets the final touches to be able to give ouput  |
+|  1  |  [Link 1](bst.cpp)  |  bst.cpp has a delete method made to delete in certain cases like detailed in the instructions.  |
 
 ### Instructions:
 
