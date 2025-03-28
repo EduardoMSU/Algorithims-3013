@@ -2,7 +2,7 @@
 ### Eduardo Robles
 ### Description: 
 
-This assignment will plug in each set of numbers one by one and identify whether the tree is balanced or unbalanced after every addition. If unbalanced, it will whatever rotation is needed.
+This assignment will plug in each set of numbers one by one and identify whether the tree is balanced or unbalanced after every addition. If unbalanced, it will do whatever rotation is needed.
 
 |  #  |  File  |  Description  |
 | :---: | ---------------- | -------------------------------------------------- |
