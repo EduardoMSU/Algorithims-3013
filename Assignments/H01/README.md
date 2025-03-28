@@ -7,8 +7,8 @@ This assignment will find a delete method to the binary search tree code.
 |  #  |  File  |  Description  |
 | :---: | ---------------- | -------------------------------------------------- |
 |  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/EezvZuof3iNDg-g0t6pELHQBibxlvKlBky7eFdD5Kd1gEw?e=4RnWHh)  |  This is the first AVL tree  |
-|  2  |  [Link 2](bst.cpp)  |  This is the second AVL tree  |
-|  3  |  [Link 3](bst.cpp)  |  This is the third AVL tree  |
+|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EdqpYvKTvPNCmotrAJVfmCgBjLhm9TmRfllaOgef-JXvzA?e=oRY9nD)  |  This is the second AVL tree  |
+|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EXHY4Qul7QVAp8PRkXFYIM0By6XLRzj2qrMlKrKfhRjVuQ?e=Cy0jkT)  |  This is the third AVL tree  |
 
 ### Instructions:
 
