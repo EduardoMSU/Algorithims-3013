@@ -2,7 +2,7 @@
 ### Eduardo Robles
 ### Description: 
 
-This assignment will find a delete method to the binary search tree code.
+This assignment will plug in each set of numbers one by one and identify whether the tree is balanced or unbalanced after every addition. If unbalanced, it will whatever rotation is needed.
 
 |  #  |  File  |  Description  |
 | :---: | ---------------- | -------------------------------------------------- |
