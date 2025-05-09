@@ -39,6 +39,14 @@ A good table size (typically a prime number) ensures that keys are spread more e
 Round Numbers: These often lead to bad key distributions as hash functions tend to align poorly with these numbers.
 Powers of 2: Can cause patterns in the hash function, leading to clustering and inefficient storage.
 
+## Part B: Simulation and Diagram Exercises
+
+|  #  |  File  |  Description  |
+| :---: | ---------------- | -------------------------------------------------- |
+|  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/EezvZuof3iNDg-g0t6pELHQBibxlvKlBky7eFdD5Kd1gEw?e=4RnWHh)  |  This is the first AVL tree  |
+|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EdqpYvKTvPNCmotrAJVfmCgBjLhm9TmRfllaOgef-JXvzA?e=oRY9nD)  |  This is the second AVL tree  |
+|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EXHY4Qul7QVAp8PRkXFYIM0By6XLRzj2qrMlKrKfhRjVuQ?e=Cy0jkT)  |  This is the third AVL tree  |
+
 ## Part C: Reflection & Short-Answer Questions
 #### 1. Real-World Impact:
 Poor hash table size leads to performance degradation because of increased collisions, requiring more probing or more linked list entries, which increases access time.
@@ -52,11 +60,3 @@ Closed Hashing (Linear Probing) or Double Hashing would be preferred because of 
 
 #### 4. Hybrid Hash Table Design:
 A hybrid hash table could combine open hashing for flexibility and closed hashing for efficiency, using open hashing for low load factors and closed hashing when the table is near capacity to optimize space and time.
-
-|  #  |  File  |  Description  |
-| :---: | ---------------- | -------------------------------------------------- |
-|  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/EezvZuof3iNDg-g0t6pELHQBibxlvKlBky7eFdD5Kd1gEw?e=4RnWHh)  |  This is the first AVL tree  |
-|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EdqpYvKTvPNCmotrAJVfmCgBjLhm9TmRfllaOgef-JXvzA?e=oRY9nD)  |  This is the second AVL tree  |
-|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EXHY4Qul7QVAp8PRkXFYIM0By6XLRzj2qrMlKrKfhRjVuQ?e=Cy0jkT)  |  This is the third AVL tree  |
-
-### Instructions:
