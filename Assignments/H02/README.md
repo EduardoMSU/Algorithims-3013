@@ -1,1 +1,43 @@
+## H02: Hashing
+### Eduardo Robles
+### Description: 
 
+1. What is a hash table and why is collision resolution necessary?
+A hash table is a data structure that stores key-value pairs, where a hash function maps each key to an index in an array. Collision resolution is necessary when two keys hash to the same index. Without it, only one key could be stored at each index, limiting the hash table’s functionality.
+
+2. Key differences between open hashing (chaining) and closed hashing (open addressing):
+Open Hashing (Chaining): Uses linked lists at each table index to store multiple keys that hash to the same index.
+Pros: Handles collisions efficiently, flexible size.
+Cons: Extra memory for linked lists.
+Closed Hashing (Open Addressing): When a collision occurs, it searches for another open slot within the table itself.
+Pros: No extra memory overhead.
+Cons: Clustering may occur, performance can degrade when table is full.
+
+3. Collision Resolution Techniques:
+Linear Probing: When a collision occurs, check the next slot (i+1) until an empty slot is found.
+Pros: Simple to implement.
+Cons: Primary clustering (consecutive slots get filled).
+Quadratic Probing: Checks slots at quadratic intervals (i+1², i+2², etc.) to resolve collisions.
+Pros: Reduces primary clustering.
+Cons: Secondary clustering may still occur.
+Double Hashing: Uses a second hash function to determine the next slot when a collision occurs.
+Pros: Minimizes clustering. 
+Cons: More complex to implement.
+
+4. Which collision resolution technique can handle more values than table slots? Open Hashing (Chaining) can handle more values than table slots, as each slot can hold multiple values using a linked list or other data structure. 
+
+5. Worst-case performance (Big O) for collision resolution techniques: Open Hashing (Chaining): O(n) in the worst case, when all keys collide at the same index. Linear Probing: O(n) in the worst case, when the table is nearly full. Quadratic Probing: O(n), but performs better than linear probing in practice. Double Hashing: O(n), but usually performs better than linear and quadratic probing. 
+
+6. How does the choice of table size affect the distribution of keys? A good table size (typically a prime number) ensures that keys are spread more evenly across the table, reducing collisions. A poor table size leads to clustering and poor distribution.
+
+7. Pitfalls of using a poor table size (e.g., round number or power of 2)?
+Round Numbers: These often lead to bad key distributions as hash functions tend to align poorly with these numbers.
+Powers of 2: Can cause patterns in the hash function, leading to clustering and inefficient storage.
+
+|  #  |  File  |  Description  |
+| :---: | ---------------- | -------------------------------------------------- |
+|  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/EezvZuof3iNDg-g0t6pELHQBibxlvKlBky7eFdD5Kd1gEw?e=4RnWHh)  |  This is the first AVL tree  |
+|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EdqpYvKTvPNCmotrAJVfmCgBjLhm9TmRfllaOgef-JXvzA?e=oRY9nD)  |  This is the second AVL tree  |
+|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EXHY4Qul7QVAp8PRkXFYIM0By6XLRzj2qrMlKrKfhRjVuQ?e=Cy0jkT)  |  This is the third AVL tree  |
+
+### Instructions:
