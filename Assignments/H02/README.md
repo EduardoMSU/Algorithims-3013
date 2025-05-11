@@ -43,9 +43,9 @@ Powers of 2: Can cause patterns in the hash function, leading to clustering and 
 
 |  #  |  File  |  Description  |
 | :---: | ---------------- | -------------------------------------------------- |
-|  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/EezvZuof3iNDg-g0t6pELHQBibxlvKlBky7eFdD5Kd1gEw?e=4RnWHh)  |  This is the first AVL tree  |
-|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EdqpYvKTvPNCmotrAJVfmCgBjLhm9TmRfllaOgef-JXvzA?e=oRY9nD)  |  This is the second AVL tree  |
-|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EXHY4Qul7QVAp8PRkXFYIM0By6XLRzj2qrMlKrKfhRjVuQ?e=Cy0jkT)  |  This is the third AVL tree  |
+|  1  |  [Link 1](https://1drv.ms/b/c/14bb949ad3dc33ee/Ec5BCeghPbBLpZkAug9Xl1oB3BBwCLP9mq6RgNC2RleV4Q?e=PFivED)  |  This is an example of Open Hashing (Seperate Chaining)  |
+|  2  |  [Link 2](https://1drv.ms/b/c/14bb949ad3dc33ee/EcxXyLr6aNpLkup_Ogfu9mEBem2ozqz-UhGHKHvtlnCQhQ?e=6znF5a)  |  This is an example of Closed Hashing (Open Addressing)  |
+|  3  |  [Link 3](https://1drv.ms/b/c/14bb949ad3dc33ee/EQyI04WSTkBFnQpkCIBcZ_wBBladNNrQ8XZYTgqZR82iIg?e=h9NIIl)  |  This is an example of Impact of Poor Table Sizes using linear probing   |
 
 ## Part C: Reflection & Short-Answer Questions
 #### 1. Real-World Impact:
