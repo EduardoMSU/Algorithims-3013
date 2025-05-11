@@ -10,4 +10,4 @@ This presentation is over Segment Trees where we cover all of the basics on Segm
 
 ### Instructions:
 
-- Click Present and go through the powerpoint to get a better understanding of Segment Trees.
+- Click on the link and go through the powerpoint to get a better understanding of Segment Trees.
